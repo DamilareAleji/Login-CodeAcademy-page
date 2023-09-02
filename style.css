@@ -6,3 +6,98 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-interface{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login-interface h1{
+    margin-bottom: 15px;
+    font-weight: 500;
+    display: flex;
+}
+
+.login-interface .email-user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-interface .password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 50px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+}
+
+.login-interface #forgot-password{
+    text-decoration: none;
+    color: #6416E0;
+}
+
+.login-interface button{
+    background-color: #6416E0;
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-interface .media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.media-icons .fa-brands{
+    border: 1px solid #EAEAEA;
+    font-size: 25px;  
+    padding: 10px;
+}
+
+.fa-linkedin{
+    color: #0072b1;
+}
+
+.fa-google{
+    color: #34A853;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-twitter{
+    color: #26a7de;
+}
+
+.login-interface #sign-up{
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+
+
