@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Codeacademy</title>
+    <title>Login to CodeAcademy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-        <form action="">
-            <h1>Login to CodeAcademy</h1>
-            <label for="email_or_username">Email or Username</label>
-            <input type="Email text" id="email_or_username">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-            <a href=""><p>I forgot my password</p></a>
-            <button>Log In</button>
-            <p>Login with another account</p>
-            <img src="LinkedIn_logo_initials.png.webp" alt="LinkedIn logo">
-            <img src="download.png" alt="Google logo">
-            <img src="download (1).png" alt="Facebook logo">
-            <img src="download (2).png" alt="Github logo">
-            <img src="download (3).png" alt="Twitter logo">
-            <a href=""><p>Not a member yet? Sign up free</p></a>
-        </form>
+    <div class="login-interface">
+        <h1>Login to CodeAcademy</h1>
+        <div class="email-user">
+            <label for="email-username" id="email-username">Email or Username</label>
+            <input type="text" id="email-username">
+        </div>
+        <div class="password">
+            <label for="password" id="password">Password</label>
+            <input type="text" id="password">
+        </div>
+        <a href="" id="forgot-password">I forgot my password</a>
+        <button>Log In</button>
+        <span>Login with another account</span>
+        <div class="media-icons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-google"></i></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></i></i></a>
+        </div>
+        <a href="" id="sign-up">Not a member yet? <strong>Sign up free</strong></a>
     </div>
+    
 </body>
 </html>
